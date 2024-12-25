@@ -1,0 +1,1 @@
+export * from './tabele5.component';

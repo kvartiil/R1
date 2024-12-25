@@ -1,0 +1,1 @@
+export * from './sektp5.component';

@@ -1,0 +1,144 @@
+<br>
+<div class="tekstike2 textmargin"> 
+  <div class="rowmargin"> 
+      <span style="font-weight: 700">Tasuvuse suhtarvud</span>
+    </div>
+  </div>
+<br><br>
+<div class="tekstike2 textmargin"> 
+  <div class="rowmargin">
+  Ettevõtte elujõulisuse kontekstis on oluline, kui tasuv, rentaabel ehk kasumlik on ettevõtte tegevus. Tasuvust vaadatakse eelkõige turutegevuse kontekstis. Mida tasuvam on ettevõtte tegevus, seda suuremaks tuleb lugeda ettevõtte elujõulisust, sest seda parema turunishi on ettevõte tõenäoliselt avastanud ja seda kindlamalt on tal klientide teenindamine käes. Enamlevinud on neli tasuvuse suhtarvu ja tulenevalt sellest on ka käesolevas töös kasutatud neid suhtarve: käibe ärirentaablus, käibe puhasrentaablus, varade puhasrentaablus ja omakapitali puhasrentaablus.
+</div>
+</div>
+<br><br>
+<div class="tekstike2 textmargin"> 
+  <div> <span style="font-weight: 700">Käibe ärirentaablus </span> (<em>operating margin</em>) juures vaadaakse, millise osakaalu moodustab ettevõtte ärikasum müügituludest. Seda näitajat vaadatakse ka kui kasumi teenimist põhitegevusest, kuid siinkohal eeldatakse, et müügitulu tuleb üksnes põhitegevusest (põhitegevus võib muutuda, põhitegevus võib koosneda mitmest alategevusest, võib olla mitu tegevuslikku põhisuunda jms., millest tulenevalt on selles osas teatud varieerumise võimalus). Käibe ärirentaablus arvutatakse alljärgneva valemi järgi:
+    
+  </div>
+</div>
+<br>
+<div class="eq-c">
+  Käibe ärirentaablus =
+   <div class="fraction">
+   <span class="fup">Ärikasum</span>
+   <span class="bar">/</span>
+   <span class="fdn">Müügitulu</span>
+   </div>
+</div><br>
+
+<div class="tekstike2 textmargin"> 
+<div class="rowmargin">
+Ärikasum ja müügitulu leitakse kasumiaruandest perioodi lõpu seisuga. Näitaja optimaalne suurus sõltub väga suurel määral äritegevuse olemusest, tegevussektorist jms., kuid mida suurem on näitaja, seda parem. Üldiselt peaks näitaja olema väiksem, kui 1, vastasel juhul mõjutavad ärikasumit sissetulekud, mis ei kajastu müügitulus.
+
+  
+</div>
+</div>
+<br><br>
+
+
+
+<div class="tekstike2 textmargin"> 
+  <div> <span style="font-weight: 700">Käibe puhasrentaablus </span> ehk puhaskasumimarginaal (<em>profit margin, net margin, net profit margin</em>) juures vaadatakse, millise osakaalu moodustab ettevõtte puhaskasum müügituludest. Näitaja toob välja, kui palju kasumit toodetakse käibeühiku kohta. Näitaja kaudu saab vaadata, kas ettevõte on turul hinnakonkurentsis ja kas kulud on optimaalses suuruses. Puhasrentaablust on erinevate ettevõtete lõikes raske võrrelda, kuna ettevõtete kulustruktuur on väga erinev. Käibe puhasrentaablus arvutatakse alljärgneva valemi järgi:
+   
+  </div>
+</div>
+<br>
+<div class="eq-c">
+  Käibe puhasrentaablus =
+   <div class="fraction">
+   <span class="fup">Puhaskasum</span>
+   <span class="bar">/</span>
+   <span class="fdn">Müügitulu</span>
+   </div>
+</div>
+<br>
+<div class="tekstike2 textmargin"> 
+<div class="rowmargin">
+Puhaskasum ja müügitulu leitakse kasumiaruandest perioodi lõpu seisuga. Sarnaselt käibe ärirentaablusega sõltub näitaja optimaalne suurus väga suurel määral äritegevuse olemusest, tegevussektorist jms., kuid mida suurem on näitaja, seda parem. Üldiselt peaks näitaja olema väiksem, kui 1, sest ettevõtte käive ületab tavaliselt müügitulu.
+
+  
+</div>
+</div>
+<br><br>
+<div class="tekstike2 textmargin"> 
+  <div> <span style="font-weight: 700">Varade ehk kogukapitali puhasrentaablus </span>(<em>return on assets — ROA</em>) juures vaadatakse, kui efektiivselt kasutab ettevõte oma varasid puhaskasumi teenimiseks. Näitaja annab ülevaate sellest, kui palju toodab varadesse paigutatud raha. Näitajat nimetatakse ka DuPonti valemiks. Varade puhasrentaablus arvutatakse alljärgneva valemi järgi:
+   
+  </div>
+</div>
+<br>
+<div class="eq-c">
+  Varade puhasrentablus (ROA) = Puhaskasumimarginal × Varade käibekordaja =
+
+  
+   <div class="fraction">
+   <span class="fup">Puhaskasum</span>
+   <span class="bar">/</span>
+   <span class="fdn">Müügitulu</span>
+   </div>
+   x
+   <div class="fraction">
+    <span class="fup">Müügitulu</span>
+    <span class="bar">/</span>
+    <span class="fdn">Varad</span>
+    </div>
+    =
+  
+    
+<div class="fraction">
+      <span class="fup">Puhaskasum</span>
+      <span class="bar">/</span>
+      <span class="fdn">Varad</span>
+</div>
+  
+</div>
+
+
+<br>
+  <div class="tekstike2 textmargin"> 
+    <div class="rowmargin">
+      Nagu ülaltoodust nähtub, on valem ROA leidmiseks mitmeastmeline ja arvutust on seega võimalik teostada mitmel viisil. Enamalt jaolt arvutatakse näitaja puhaskasumi ja varade omavahelise jagatisena. Vajalikud sisendnäitajad leitakse bilansist ja kasumiaruandest perioodi lõpu seisuga. Näitaja võimaldab analüüsida ühelt poolt ettevõtte kasumlikkust, kuid teiselt poolt ka varade kasutamise efektiivsust.
+    </div>
+  </div>
+  <br><br>
+  <div class="tekstike2 textmargin"> 
+    <div> <span style="font-weight: 700">Omakapitali tootlus ehk puhasrentaablus  </span>(<em>return on equity — ROE</em>) juures vaadatakse, kui efektiivselt kasutatakse omakapitali puhaskasumi teenimiseks. Ettevõtte omanike vahendid on omakapitalis ning selle näitaja abil on võimalik saada ülevaade, kuivõrd efektiivselt need vahendid ennast taastoodavad.  Omakapitali puhasrentaablus arvutatakse alljärgneva valemi järgi:
+      
+      
+    </div>
+  </div>
+  <br>
+  <div class="eq-c">
+    Omakapitali puhasrentaablus (ROE) = Puhaskasumimarginaal × Varade käibekordaja × Finanstvõimendus =
+    </div><br>
+    <div class="eq-c"> 
+      = ROA x 
+      <div class="fraction">
+      <span class="fup">Varad</span>
+      <span class="bar">/</span>
+      <span class="fdn">Omakapital</span>
+      </div>
+      
+      =
+            
+   <div class="fraction">
+         <span class="fup">Puhaskasum</span>
+         <span class="bar">/</span>
+         <span class="fdn">Varad</span>
+   </div>
+     </div><br>
+     <div class="tekstike2 textmargin"> 
+      <div class="rowmargin">
+      Omakapitali puhasrentaabluse arvutamiseks vajalikud andmed leitakse ettevõtte kasumiaruandest ja bilansist vastavatelt ridadelt perioodi lõpu seisuga.  Enamasti kasutatakse näitaja arvutamisel puhaskasumi ja omakapitali läbijagamist.  Nagu ka ROA puhul, on ROE puhul tegemist DuPonti analüüsiga. See analüüs võimaldab eristada kolme põhitüüpi ettevõtteid:
+      </div>
+    </div>
+    <div class="tekstike2 textmargin"> 
+      <div class="rowmargin"> 
+      
+      <ul>
+      <li>ettevõtted, kus kasumimarginaal on kõrge;</li>
+      <li>ettevõtted, kus on suur käive;</li>
+      <li>ettevõtted, kus on suur finantsvõimendus.</li>
+      </ul>
+      </div>
+    </div>
+    <br>

@@ -1,0 +1,43 @@
+<div class="raamYmber" >
+
+<br>
+<div class="tekstike">
+
+  Suhtarvude võrdlus kohalike omavalitsusüksuste kaupa
+
+</div>
+
+<br>
+
+<div class="tekstike2">
+
+  Allpool on esitatud suhtarvude analüüs kohalike omavalitsusüksuste kaupa. Välja toodud on nii ettevõtte enda suhtarv kui ka suhtarvude mediaanväärtused kõigis kohalikes omavalitsusüksustes.  See võimaldab asetada ettevõtet üldisesse võrdlusesse. Võimalik on näha võrdlust nii oma asukoha kui ka teiste piirkondadega. 
+
+<br> <br>
+</div>
+
+<div *ngFor="let section of sections; let i = index;">
+  <button class="accordion" (click) = "expand(i)"> <span class="tekstikev">{{section.name}}</span></button>
+
+  <!--div class="raamYmber" -->
+
+  <div class="panel"
+    [ngClass]="{ 'visible' : currentIndex === i }">
+    <!--p>{{section.content}}</p-->
+    <sektp1a-component *ngIf="showComponent1"></sektp1a-component>
+    <sektp2a-component *ngIf="showComponent2"></sektp2a-component>
+    <sektp3a-component *ngIf="showComponent3"></sektp3a-component>
+    <sektp4a-component *ngIf="showComponent4"></sektp4a-component>
+    <sektp5a-component *ngIf="showComponent5"></sektp5a-component>
+    
+    <!--progn2-component *ngIf="{{section.content}}=='progn2'"></progn2-component *ngIf="{{section.content}}=='progn2'"-->
+    <!--progn1-component></progn1-component-->
+    <!--progn2-component></progn2-component-->
+  <!--/div-->
+
+</div>
+
+</div>
+
+</div>
+

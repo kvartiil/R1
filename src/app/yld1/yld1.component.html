@@ -1,0 +1,65 @@
+<div class="frame">
+
+<div class="rida">
+   <div class="group">
+     <div class="joonisval">
+       <div class="joonis">
+           
+         <!--div class="overlap-group"-->
+           
+         <!--/div-->
+         <koondind7-component></koondind7-component>
+         
+         
+       </div>
+       
+     
+
+</div>
+     
+   </div>
+   <div class="tekstjanupp">
+     <p class="ettev-te-on-k-rge">
+       <span class="span">Ettevõte elujõud on </span>
+       <span class="text-wrapper-5">{{annaHinnang()}}. </span>
+       <span class="span">Eri näitajad mõjutavad ettevõtte elujõulisust tavaliselt erineval määral. </span>
+       <span class="span">{{panusEellugu()}}</span>
+       <span class="text-wrapper-5">{{panusTuleb()}}</span>
+       <span class="span"
+         >{{lisaTargutus()}}</span
+       >
+     </p><br>
+     <div class="nupp">
+      <button (click)="onclick()">
+      
+      {{ReadMore?"Näita rohkem informatsiooni":"Peida täiendav informatsioon"}}
+      </button>
+     </div>
+   </div>
+</div>
+</div>
+      <ng-container *ngIf="visible">
+        <lahteturn-component></lahteturn-component>
+        <!--div class="tekstselgit2">
+          
+          <br>   
+          
+          <lahteinfo-component></lahteinfo-component>    
+            
+        </div-->
+        
+
+    </ng-container>
+      <!--/div-->  <!--Teksti kohta on stiiliinfot 224-->
+
+     
+
+
+
+
+   <!--/div-->
+ <!--/div-->    
+
+<!--/div-->
+
+{{maakonnaKontroll()}}

@@ -1,0 +1,32 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../out-tsc/lib",
+    "declaration": true,
+    "declarationMap": true,
+
+   /* "strictPropertyInitialization": false,*/
+    
+    "inlineSources": true,
+    "types": []
+    
+  },
+  "angularCompilerOptions": {
+    "compilationMode": "partial",
+
+   /* "disableTypeScriptVersionCheck": true,
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictPropertyInitialization": false,
+    "strictInjectionParameters": false,
+    "strictInputAccessModifiers": false,
+    "strictTemplates": false
+*/
+
+  },
+  "exclude": [
+    "**/*.spec.ts"
+  ]
+}
+
+

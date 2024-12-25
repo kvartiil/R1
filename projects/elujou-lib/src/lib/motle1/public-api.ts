@@ -1,0 +1,1 @@
+export * from './motle1.component';

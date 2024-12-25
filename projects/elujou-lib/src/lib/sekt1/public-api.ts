@@ -1,0 +1,1 @@
+export * from './sekt1.component';

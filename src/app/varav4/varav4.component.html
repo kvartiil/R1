@@ -1,0 +1,33 @@
+<div class="raamYmber" >
+
+  <br>
+  <div class="tekstike">
+  
+  Ettevõtte elujõulisuse indeksi tõe raamat
+  
+  </div>
+  
+  <br>
+  
+  <div class="tekstike2a">
+  
+  Alljärgnevalt on toodud alajaotuste lõikes olulisemad selgitused süsteemi töö kohta nagu ka võimalikud süsteemi hinnangut kallutada võivad asjaolud. Materjali lugedes saab selgeks, mida peab käesolevat süsteemi kasutades silmas pidama ja kus võivad olla selle süsteemi nõrgad kohad. Süsteemi puhul on tegemist masinaga, mis on oma sisult arvutiprogramm ja selle töö ei pruugi igas olukorras olla laitmatult ideaalne. Konkreetse informatsiooni lugemiseks on vajalik klikkida (s.t. vajutada) vastaval alajaotusel.
+  <br> <br>
+  </div>
+  
+  <div *ngFor="let section of sections; let i = index;">
+    <button class="accordion" (click) = "expand(i)"> <span class="tekstikev">{{section.name}}</span></button>
+  
+    <!--div class="raamYmber" -->
+  
+    <div class="panel"
+      [ngClass]="{ 'visible' : currentIndex === i }">
+      <span class="tekstike2">{{section.content}}</span>
+        
+  </div>
+  
+  </div>
+  
+  </div>
+  
+  

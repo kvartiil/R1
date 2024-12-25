@@ -1,0 +1,195 @@
+$ria-notification-success-text-color: var(--ria-notification-success-text-color, #266B42);
+$ria-notification-success-background-color: var(--ria-notification-success-background-color, #EAF3EE);
+$ria-notification-success-border-color: var(--ria-notification-success-border-color, #599E75);
+
+$ria-notification-info-text-color: var(--ria-notification-info-text-color, #005AA3);
+$ria-notification-info-background-color: var(--ria-notification-info-background-color, #EAF6FF);
+$ria-notification-info-border-color: var(--ria-notification-info-border-color, #337BB5);
+
+$ria-notification-warning-text-color: var(--ria-notification-warning-text-color, #94690D);
+$ria-notification-warning-background-color: var(--ria-notification-warning-background-color, #FFF8E7);
+$ria-notification-warning-border-color: var(--ria-notification-warning-border-color, #BA830D);
+
+$ria-notification-error-text-color: var(--ria-notification-error-text-color, #AC3232);
+$ria-notification-error-background-color: var(--ria-notification-error-background-color, #FBECEC);
+$ria-notification-error-border-color: var(--ria-notification-error-border-color, #DF6565);
+
+$ria-notification-close-button-color: var(--ria-notification-close-button-color, #686B78);
+
+$ria-notification-header-size: var(--ria-notification-header-size, 1.125rem);
+$ria-notification-header-content-spacing: var(--ria-notification-header-content-spacing, 0.5rem);
+
+$ria-notification-border-left: var(--ria-notification-border-left, (solid 1px));
+$ria-notification-border-right: var(--ria-notification-border-right, (solid 1px));
+$ria-notification-border-top: var(--ria-notification-border-top, (solid 1px));
+$ria-notification-border-bottom: var(--ria-notification-border-bottom, (solid 1px));
+
+$ria-notification-border-radius-top-left: var(--ria-notification-border-radius-top-left, 0.25rem);
+$ria-notification-border-radius-top-right: var(--ria-notification-border-radius-top-right, 0.25rem);
+$ria-notification-border-radius-bottom-left: var(--ria-notification-border-radius-bottom-left, 0.25rem);
+$ria-notification-border-radius-bottom-right: var(--ria-notification-border-radius-bottom-right, 0.25rem);
+
+$ria-notification-container-max-width: var(--ria-notification-container-max-width, 100%);
+
+
+.ria-notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: $ria-notification-border-left;
+  border-right: $ria-notification-border-right;
+  border-top: $ria-notification-border-top;
+  border-bottom: $ria-notification-border-bottom;
+  border-radius: $ria-notification-border-radius-top-left $ria-notification-border-radius-top-right $ria-notification-border-radius-bottom-right $ria-notification-border-radius-bottom-left;
+
+
+  &--success {
+    background-color: $ria-notification-success-background-color;
+    border-color: $ria-notification-success-border-color;
+    color: $ria-notification-success-text-color;
+
+    h5 {
+      color: $ria-notification-success-text-color;
+    }
+  }
+
+  &--info {
+    background-color: $ria-notification-info-background-color;
+    border-color: $ria-notification-info-border-color;
+    color: $ria-notification-info-text-color;
+
+    h5 {
+      color: $ria-notification-info-text-color;
+    }
+  }
+
+  &--warning {
+    background-color: $ria-notification-warning-background-color;
+    border-color: $ria-notification-warning-border-color;
+    color: $ria-notification-warning-text-color;
+
+    h5 {
+      color: $ria-notification-warning-text-color;
+    }
+  }
+
+  &--error {
+    background-color: $ria-notification-error-background-color;
+    border-color: $ria-notification-error-border-color;
+    color: $ria-notification-error-text-color;
+
+    h5 {
+      color: $ria-notification-error-text-color;
+    }
+  }
+}
+
+.ria-notification-container {
+  position: relative;
+  padding: 1rem;
+  max-width: $ria-notification-container-max-width;
+  width: 100%;
+}
+
+.ria-notification-header {
+  display: flex;
+  align-items: center;
+
+  gap: 0.5rem;
+  margin-right: 1rem;
+
+  em {
+    margin-bottom: auto;
+  }
+
+  h5 {
+    font-size: $ria-notification-header-size;
+    line-height: 24px;
+  }
+}
+
+.ria-notification-header-content-spacing {
+  margin-bottom: $ria-notification-header-content-spacing;
+}
+
+.ria-notification-right-margin {
+  margin-right: 1rem !important;
+}
+
+button[type=button] {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 !important;
+  padding: 0 !important;
+  box-shadow: unset !important;
+  border: none !important;
+  background-color: transparent !important;
+
+  height: 2rem;
+  width: 2rem;
+
+  color: $ria-notification-close-button-color;
+
+  &:focus-visible {
+    outline: -webkit-focus-ring-color auto 1px;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  em {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+}
+
+p, h5 {
+  margin: 0 !important;
+  font-weight: normal;
+}
+
+.outlined-icon {
+  &--warning-amber {
+    min-height: 1.5rem;
+    min-width: 1.5rem;
+    background: currentColor;
+    /*mask: url(../../assets/icons/outlined_warning_amber.svg) center/cover;*/
+    mask: url(../assets/icons/outlined_warning_amber.svg) center/cover;
+  }
+
+  &--check {
+    min-height: 1.5rem;
+    min-width: 1.5rem;
+    background: currentColor;
+    mask: url(../assets/icons/outlined_check.svg) center/cover;
+  }
+
+  &--info {
+    min-height: 1.5rem;
+    min-width: 1.5rem;
+    background: currentColor;
+    mask: url(../assets/icons/outlined_info.svg) center/cover;
+  }
+
+  &--report {
+    min-height: 1.5rem;
+    min-width: 1.5rem;
+    background: currentColor;
+    mask: url(../assets/icons/outlined_report.svg) center/cover;
+  }
+
+  &--close {
+    min-height: 1.5rem;
+    min-width: 1.5rem;
+    background: currentColor;
+    mask: url(../../assets/icons/outlined_close.svg) center/cover;
+  }
+}

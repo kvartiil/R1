@@ -1,0 +1,1 @@
+export * from './metraport2.component';

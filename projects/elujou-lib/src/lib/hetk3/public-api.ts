@@ -1,0 +1,1 @@
+export * from './hetk3.component';

@@ -1,0 +1,1 @@
+export * from './terminal1.component';

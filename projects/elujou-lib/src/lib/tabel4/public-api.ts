@@ -1,0 +1,1 @@
+export * from './tabel4.component';

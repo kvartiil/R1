@@ -1,0 +1,44 @@
+<div class="raamYmber" >
+
+<br>
+<div class="tekstike">
+
+  Suhtarvude võrdlus suurusklasside kaupa
+
+</div>
+
+<br>
+
+<div class="tekstike2">
+
+
+  Allpool on esitatud suhtarvude analüüs suurusklasside kaupa. Välja toodud on nii ettevõtte enda suhtarv kui ka suhtarvude mediaanväärtused kõigis suurusgruppides, mis võimaldab asetada ettevõtte üldisesse võrdlusesse. Võimalik on näha ettevõtet nii oma suurusklassi kui ka teiste suurusklasside võrdluses. 
+
+<br> <br>
+</div>
+
+<div *ngFor="let section of sections; let i = index;">
+  <button class="accordion" (click) = "expand(i)"> <span class="tekstikev">{{section.name}}</span></button>
+
+  <!--div class="raamYmber" -->
+
+  <div class="panel"
+    [ngClass]="{ 'visible' : currentIndex === i }">
+    <!--p>{{section.content}}</p-->
+    <sekts1a-component *ngIf="showComponent1"></sekts1a-component>
+    <sekts2a-component *ngIf="showComponent2"></sekts2a-component>
+    <sekts3a-component *ngIf="showComponent3"></sekts3a-component>
+    <sekts4a-component *ngIf="showComponent4"></sekts4a-component>
+    <sekts5a-component *ngIf="showComponent5"></sekts5a-component>
+    
+    <!--progn2-component *ngIf="{{section.content}}=='progn2'"></progn2-component *ngIf="{{section.content}}=='progn2'"-->
+    <!--progn1-component></progn1-component-->
+    <!--progn2-component></progn2-component-->
+  <!--/div-->
+
+</div>
+
+</div>
+
+</div>
+

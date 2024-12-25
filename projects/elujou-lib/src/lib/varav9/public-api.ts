@@ -1,0 +1,1 @@
+export * from './varav9.component';

@@ -1,0 +1,33 @@
+<div class="raamYmber" >
+
+  <br>
+  <div class="tekstike">
+  
+  Kaasamõtlemise võimalused sisendi andmisel
+  
+  </div>
+  
+  <br>
+  
+  <div class="tekstike2a">
+  
+  Alljärgnevalt on toodud alajaotuste lõikes olulisemad selgitused võimaluste osas, et kasutaja saaks anda omapoolset sisendit ja kuidas seda sisendit arvesse võetakse.
+  <br> <br>
+  </div>
+  
+  <div *ngFor="let section of sections; let i = index;">
+    <button class="accordion" (click) = "expand(i)"> <span class="tekstikev">{{section.name}}</span></button>
+  
+    <!--div class="raamYmber" -->
+  
+    <div class="panel"
+      [ngClass]="{ 'visible' : currentIndex === i }">
+      <span class="tekstike2">{{section.content}}</span>
+        
+  </div>
+  
+  </div>
+  
+  </div>
+  
+  

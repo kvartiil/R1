@@ -1,0 +1,1 @@
+export * from './ilulisaf3.component';

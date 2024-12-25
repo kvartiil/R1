@@ -1,0 +1,1 @@
+export * from './graaf10.component';

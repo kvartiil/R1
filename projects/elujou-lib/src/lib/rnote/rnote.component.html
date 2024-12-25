@@ -1,0 +1,39 @@
+<div
+  class="ria-notification"
+  [ngClass]="'ria-notification--' + type"
+  aria-live="assertive"
+>
+  <div class="ria-notification-container">
+    <div>
+      <div
+        [attr.hidden]="hasContent(headerRef) ? undefined : true"
+        class="ria-notification-header"
+        [ngClass]="{
+          'ria-notification-header-content-spacing' : hasContent(contentRef),
+          'ria-notification-right-margin': closable
+        }"
+      >
+        <em *ngIf="hasIcon" class="outlined-icon--{{iconIdentifierByNotificationType[type]}}" aria-hidden="true"></em>
+        <h5 #headerRef>
+          <ng-content select="[riaNotificationHeader]"></ng-content>
+        </h5>
+      </div>
+
+      <p [ngClass]="{ 'ria-notification-right-margin' : !hasContent(headerRef) && closable }">
+        <small #contentRef>
+          <ng-content select="[riaNotificationContent]"></ng-content>
+        </small>
+      </p>
+    </div>
+
+    <button
+      #notificationCloseButton
+      *ngIf="closable"
+      type="button"
+      (click)="closeClick.emit()"
+      [attr.aria-label]="ariaCloseButtonMsg"
+    >
+      <em class="outlined-icon--close" aria-hidden="true"></em>
+    </button>
+  </div>
+</div>

@@ -1,0 +1,81 @@
+<br>
+<div class="tekstike2 textmargin"> 
+  <div class="rowmargin"> 
+      <span style="font-weight: 700">Finantsvõimenduse suhtarvud</span>
+    </div>
+  </div>
+<br><br>
+<div class="tekstike2 textmargin"> 
+  <div class="rowmargin">
+    Ettevõtete elujõulisuse kontekstis on oluline, kui palju on ettevõte kaasanud oma tegevusse nn. võõrast raha. Selle hindamiseks kasutatakse finantsvõimenduse analüüsi. Finantsvõimendus annab ülevaate, et kui palju kasutatakse ettevõttes tegevuse rahastamiseks laenatud vahendeid. Mida rohkem on bilansis laenu, seda suurem on finantsvõimendus ja seda riskantsemaks (ka rahaliselt kulukamaks, sest laenurahal on oma hind) muutub ettevõtte tegevus. Mida rohkem on laenatud vahendeid ja mida kõrgem on seega finantsvõimendus, seda madalamaks tuleb lugeda elujõulisust (olgugi, et just oskuslik võõrvahendite kaasamine võib teinekord anda uue aluse eduks). Enamlevinud on kolm finantsvõimenduse analüüsimise suhtarvu ja tulenevalt sellest on ka käesolevas töös kasutatud neid suhtarve: võlakordaja, kohustuste ja omakapitali suhe ning intresside kattekordaja.
+
+  </div>
+</div>
+<br><br>
+<div class="tekstike2 textmargin"> 
+  <div> <span style="font-weight: 700">Võlakordaja</span> (<em>debt ratio</em>) juures vaadatakse seda, kui palju on ettevõtte bilansis laenukapitali. Sisuliselt võrreldakse kogu ettevõtte võlga ettevõtte kogu varade mahuga. Võlakordaja arvutatakse alljärgneva valemi järgi:
+    
+
+  </div>
+</div><br>
+<div class="eq-c">
+  Võlakordaja =
+   <div class="fraction">
+   <span class="fup">Kohustused kokku</span>
+   <span class="bar">/</span>
+   <span class="fdn">Varad kokku</span>
+   </div>
+</div>
+<br>
+<div class="tekstike2 textmargin"> 
+  <div class="rowmargin">
+    Kogukohustuste ja varade maht leitakse vastavatelt bilansikirjetelt perioodi lõpu seisuga. Milline on õige või sobiv kohustuste osakaal, see sõltub suuresti ettevõtte tegevusvaldkonnast ning millist juhtimisstrateegiat rakendatakse (ageressiivne kasv, turu hoidmine vms.). Heaks indikaatoriks on 0.5, kui näitaja on sellest väiksem, siis peamiselt viiakse äri läbi ikkagi omanike raha eest ja laenuandjaid tuuakse vähem sisse (konservatiivne strateegia).  Kui näitaja on suurem 0.5-st, siis on tegemist peamiselt võlausaldajate raha peal aetava äriga (see annab võimaluse suuremaks kasvuks, kuid sisaldab suuremaid riske). Oluline on tuua välja ka asjaolu, et mida rohkem on raha kaasatud, seda raskem on täiendavaid võõrvahendeid juurde tuua.
+    
+  </div>
+</div>
+<br><br>
+<div class="tekstike2 textmargin"> 
+  <div> <span style="font-weight: 700">Kohustuste ja omakapitali suhe </span> (<em>debt-equity ratio, gearing, leverage</em>) näitaja juures vaadatakse, kuidas ettevõttes kasutatakse laenukapitali võrreldes omakapitaliega. Praktikasse tulles on oluline tähelepanu pöörata sellele, mida arvestada kohustuste ja mida omakapitali hulka. Näiteks konverteeritavad võlakirjad võivad olla mitmeti tõlgendamise objektiks. Samuti ka asjaolu, et mida arvestada kohustuste hulka - üldjuhul võetakse arvesse eelkõige pikaajalisi kohustusi, kuid ka võlgu olev arve ja tasumata riiklikud maksud on kohustused. Kohustuste ja omakapitali suhe arvutatakse alljärgneva valemi järgi:
+       
+  </div>
+</div>
+<br>
+<div class="eq-c">
+  Kohustuste ja omakapitali suhe =
+   <div class="fraction">
+   <span class="fup">Kohustused kokku</span>
+   <span class="bar">/</span>
+   <span class="fdn">Omakapital kokku</span>
+   </div>
+</div>
+<br>
+
+<div class="tekstike2 textmargin"> 
+<div class="rowmargin">
+  Kohustuste hulk ja omakapital leitakse ettevõtte vastavatelt bilansikirjetelt perioodi lõpu seisuga. Eelnevalt sai mainitud probleeme kohtustuse arvestamisega. Ka omakapitali arvestamisel tuleb praktikas arvestada (tegeliku pildi saamiseks), et jaotamata kasum ei pruugi sugugi olla ettevõtte kontol ja käibekapitalina töötada, olgugi, et raamatupidamisest võiks sellise järelduse teha.
+  
+</div>
+</div>
+<br><br>
+
+
+<div class="tekstike2 textmargin"> 
+  <div> <span style="font-weight: 700">Intresside kattekordaja </span> (<em>interest coverage ratio; times-interest-earned (TIE) ratio</em>) juures vaadatakse, kuidas ettevõtte tegevusest (põhitegevusest) teenitud rahavooga on võimalik katta ära ettevõtte kohustuste (laenudega) kaasnevad intressi kulud.  Intresside kattekordaja arvutatakse alljärgneva valemi järgi:
+    
+  </div>
+</div>
+<br>
+<div class="eq-c">
+  Intresside kattekordaja =
+   <div class="fraction">
+   <span class="fup">EBIT</span>
+   <span class="bar">/</span>
+   <span class="fdn">Aruandeperioodi intressikulu</span>
+   </div>
+</div><br>
+<div class="tekstike2 textmargin"> 
+  <div class="rowmargin">
+    Näitaja on oluline selles mõttes, et annab ülevaate, kas ettevõte suudab katta oma jooksvast tegevusest tulenevalt need kulud, mida toob kaasa võõrvahendite kaasamine, s.t. tasuda laendatud raha hinda. Kui kordaja on väiksem kui 1, siis see tähendab seda, et sisuliselt on ettevõte uppumisohus. Valemis kasutatakse jagatavana kas EBIT (kasum enne intresse ja makse) või EBITDA (kasum enne intresse, makse ja kulumit) näitajat. Näitaja võiks olla suurem, kui 2.5, siis on laenukohustuste teenindamine "turvalisel" territooriumil.
+  </div>
+</div>
+<br><br>

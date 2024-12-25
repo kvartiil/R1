@@ -1,0 +1,1 @@
+export * from './sisend2.component';

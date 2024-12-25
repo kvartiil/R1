@@ -1,0 +1,1 @@
+export * from './sekts3agraaf.component';

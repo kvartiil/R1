@@ -1,0 +1,53 @@
+<div class="raamYmber" >
+
+<br>
+<div class="tekstike">
+
+Maakondlike arenduskeskuste informatsioon
+
+</div>
+
+<br>
+
+<div class="tekstike2">
+
+Allpool on tutvustav informatsioon maakondlike arenduskeskuste kaupa. Alajaotuse kaudu pääseb valitud maakonna arenduskeskuse kodulehele ja saab tutvuda võimalustega, mida arenduskeskus pakub.
+<br> <br>
+</div>
+
+<div *ngFor="let section of sections; let i = index;">
+  <button class="accordion" (click) = "expand(i)"> <span class="tekstikev">{{section.name}}</span></button>
+
+  <!--div class="raamYmber" -->
+
+  <div class="panel"
+    [ngClass]="{ 'visible' : currentIndex === i }">
+    <!--p>{{section.content}}</p-->
+    <maakx-component *ngIf="showComponent1"></maakx-component>
+    <maak1x-component *ngIf="showComponent2"></maak1x-component>
+    <maak2x-component *ngIf="showComponent3"></maak2x-component>
+    <maak3x-component *ngIf="showComponent4"></maak3x-component>
+    <maak4x-component *ngIf="showComponent5"></maak4x-component>
+    <maak5x-component *ngIf="showComponent6"></maak5x-component>
+    <maak6x-component *ngIf="showComponent7"></maak6x-component>
+    <maak7x-component *ngIf="showComponent8"></maak7x-component>
+    <maak8x-component *ngIf="showComponent9"></maak8x-component>
+    <maak9x-component *ngIf="showComponent10"></maak9x-component>
+    <maak10x-component *ngIf="showComponent11"></maak10x-component>
+    <maak11x-component *ngIf="showComponent12"></maak11x-component>
+    <maak12x-component *ngIf="showComponent13"></maak12x-component>
+    <maak13x-component *ngIf="showComponent14"></maak13x-component>
+    <maak14x-component *ngIf="showComponent15"></maak14x-component>
+    <maak15x-component *ngIf="showComponent16"></maak15x-component>
+    
+    <!--progn2-component *ngIf="{{section.content}}=='progn2'"></progn2-component *ngIf="{{section.content}}=='progn2'"-->
+    <!--progn1-component></progn1-component-->
+    <!--progn2-component></progn2-component-->
+  <!--/div-->
+
+</div>
+
+</div>
+
+</div>
+

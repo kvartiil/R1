@@ -1,0 +1,30 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
+
+import { ElujoutestComponent } from './elujoutest/elujoutest.component';
+import { ElujouLibComponent } from './elujou-lib.component';
+
+//import { ElujoutestComponent } from '../../projects/elujou-lib/src/lib/elujoutest/elujoutest.component';
+
+
+@NgModule({
+  imports: [BrowserModule, CommonModule, ElujoutestComponent],
+  declarations: [
+    
+  ],
+  exports: [ElujoutestComponent],
+  bootstrap: [
+    ElujouLibComponent
+  ]
+})
+export class ElujouModule { }
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/

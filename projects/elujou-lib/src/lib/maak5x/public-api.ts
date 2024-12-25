@@ -1,0 +1,1 @@
+export * from './maak5x.component';

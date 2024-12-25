@@ -1,0 +1,43 @@
+<!---br>
+<p>See on graafik...</p--->
+<br><br>
+<div class="tekstike2">
+  Tegevusala valimine 
+  </div>
+  <br>
+  <div class="tekstike2">
+    
+    <!---/div--->
+  <select [formControl]="dropdown" class="container2">
+    <!--select [formControl]="dropdown" class="container2" name="options2[1]" [(ngModel)]="options2[1]"-->
+    <!---option value="">Choose your city</option--->
+    <!--span>{{ valik }}</span-->
+    <option value="null" hidden disabled>{{valdkonnake2}}</option>
+    <option [value]="option" *ngFor="let  option of options2">{{option}}</option>
+  </select> 
+  <!---{{suhtarvuvalik()}}-->
+  {{ muudaVaartust() }}
+   
+  </div>
+
+{{ paneAndmed() }}
+<div class="asukoht">
+  <div echarts [options]="options" class="yld1-chart"></div>
+  </div>
+
+  <ul class="Legend" style="list-style-type:none;">
+  <li class="Legend-item">
+    <span class="Legend-colorBox" style="background-color: #2f4554;">
+    </span>
+    <span class="Legend-label">
+      Minu näitajad &nbsp;&nbsp;&nbsp;
+    </span>
+    <span class="Legend-colorBox" style="background-color: #2ea0f5;">
+    </span>
+    <span class="Legend-label">
+      Valitud sektori keskmised näitajad
+    </span>
+  </li>
+</ul>
+  <!-----{{suhtarvuvalik()}}--->
+  <!----{{oigeSuhtarv}}--->

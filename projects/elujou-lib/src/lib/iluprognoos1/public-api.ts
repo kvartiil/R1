@@ -1,0 +1,1 @@
+export * from './iluprognoos1.component';

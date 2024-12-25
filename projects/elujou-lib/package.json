@@ -1,0 +1,15 @@
+{
+  "name": "elujou-lib",
+  "version": "0.0.134",
+  "peerDependencies": {
+    "@angular/common": "^17.1.0",
+    "@angular/core": "^17.1.0"
+  },
+  "dependencies": {
+    "@angular/forms": "^18.2.2",
+    "ngx-echarts": "^18.0.0",
+    "ngx-gauge": "^9.0.0",
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

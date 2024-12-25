@@ -1,0 +1,45 @@
+<div class="raamYmber" >
+
+<br>
+<div class="tekstike">
+
+Suhtarvude võrdlus tegevussektorite kaupa
+
+</div>
+
+<br>
+<div class="infoasukoht">
+  <infoakensuhtarv-component></infoakensuhtarv-component>
+</div>
+<div class="tekstike2">
+
+Allpool on esitatud suhtarvude analüüs tegevussektorite kaupa. Välja toodud on nii ettevõtte enda suhtarv kui ka suhtarvude mediaanväärtused kõigi tegevussektorite arvestuses, mis võimaldab näha oma ettevõtet üldises võrdluses. Võimalik on näha oma ettevõtet võrrelduna nii sama sektori kui ka teiste sektoritega.
+
+<br> <br>
+</div>
+
+<div *ngFor="let section of sections; let i = index;">
+  <button class="accordion" (click) = "expand(i)"> <span class="tekstikev">{{section.name}}</span></button>
+
+  <!--div class="raamYmber" -->
+
+  <div class="panel"
+    [ngClass]="{ 'visible' : currentIndex === i }">
+    <!--p>{{section.content}}</p-->
+    <sekt1a-component *ngIf="showComponent1"></sekt1a-component>
+    <sekt2a-component *ngIf="showComponent2"></sekt2a-component>
+    <sekt3a-component *ngIf="showComponent3"></sekt3a-component>
+    <sekt4a-component *ngIf="showComponent4"></sekt4a-component>
+    <sekt5a-component *ngIf="showComponent5"></sekt5a-component>
+    
+    <!--progn2-component *ngIf="{{section.content}}=='progn2'"></progn2-component *ngIf="{{section.content}}=='progn2'"-->
+    <!--progn1-component></progn1-component-->
+    <!--progn2-component></progn2-component-->
+  <!--/div-->
+
+</div>
+
+</div>
+
+</div>
+

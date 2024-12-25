@@ -1,0 +1,75 @@
+<br>
+<div class="tekstike2 textmargin"> 
+  <div class="rowmargin"> 
+      <span style="font-weight: 700">Efektiivsuse suhtarvud</span>
+    </div>
+  </div>
+<br><br> 
+<div class="tekstike2 textmargin"> 
+<div class="rowmargin">
+  Ettevõtete elujõulisuse kontekstis on oluline see, kui efektiivselt ettevõtte varasid kasutatakse. Selles kontekstis tulevad appi efektiivsuse suhtarvud. Mida efektiivsemalt ettevõtte varad "töötavad", seda suurem on ettevõtte elujõulisus. Sisuliselt seisneb loogika selles, et kui varad ostetakse teatud summa eest, siis see summa (investeeritud raha) peab ennast ettevõttele tagasi teenima. Mida paremini raha ennast tagasi teenib, seda paremini ettevõttel läheb. Enamlevinud on kolm efektiivsuse suhtarvu ja tulenevalt sellest on ka käesolevas töös kasutatud just neid kolme efektiivsuse suhtarvu: varade käibesagedus, lühiajalise võlgnevuse käibekordaja ja varude käibekordaja.
+  </div>
+ </div>
+ <br><br>
+ <div class="tekstike2 textmargin"> 
+<div><span style="font-weight: 700">Varade käibesagedus </span> (<em>asset turnover</em>), nimetatakse ka koguvara käibeks, juures vaadatakse seda, kui efektiivselt kasutab ettevõte oma kogu vara. Kuna näitaja puhul jagatakse varade abil saadud müügitulu perioodi keskmise vara maksumusega näitab, siis mida suurem on näitaja arvuline väärtus, seda efektiivsemalt järelikult varasid kasutatakse. Varade käibesagedus arvutatakse alljärgneva valemi järgi:
+  </div>
+ </div> <br>
+ <div class="eq-c">
+  Varade käibesagedus =
+   <div class="fraction">
+   <span class="fup">Müügitulu</span>
+   <span class="bar">/</span>
+   <span class="fdn">Keskmine vara</span>
+   </div>
+</div><br>
+
+  <div class="tekstike2 textmargin"> 
+    <div class="rowmargin">
+      Müügitulu leitakse kasumiaruandest perioodi lõpu seisuga ja keskmine vara bilansist perioodi alguse ja perioodi lõpu keskmisena. Elujõulisuse kontekstis on kõrgem varade käibesagedus suurema elujõulisuse näitaja, sest raha on paigutatud paremini töötavatesse vahenditesse (raha teenib ennast paremini tagasi).
+    </div>
+  </div>
+  <br><br>
+  <div class="tekstike2 textmargin"> 
+    <div> <span style="font-weight: 700">Lühiajalise võlgnevuse käibekordaja</span> (<em>receivables turnover</em>), nimetatakse ka debitoorse võlgnevuse käibekordajaks, juures vaadatakse seda, kui suure osa ettevõtte käibest moodustab debitoorne võlgnevus (peamiselt koosneb see ostjate laekumata arvetest). Teisiti öeldes, kui palju käiberaha on võlgnike käes. Näitajat annab käsitleda ka nii, et selle abil leida, mitu korda leiab aset võlgade tasumine võlgnike poolt perioodi jooksul. Lühiajalise võlgnevuse käibekordaja arvutatakse alljärgneva valemi järgi:
+      
+    </div>
+  </div><br>
+  <div class="eq-c">
+    Lühiajalise võlgnevuse käibekordaja =
+     <div class="fraction">
+     <span class="fup">Müügitulu</span>
+     <span class="bar">/</span>
+     <span class="fdn">Keskmine debitoorne võlgnevus</span>
+     </div>
+  </div> <br>
+  <div class="tekstike2 textmargin"> 
+  <div class="rowmargin">
+  Müügitulu leitakse kasumiaruandest perioodi lõpu seisuga ja keskmine debitoorne võlgnevus bilansist perioodi alguse ja perioodi lõpu keskmisena. Elujõulisuse seisukohalt vaadates saab näitaja järgi aru sellest, et kui palju raha on klientide käes (kui suur osa rahast pole "koju toodud"). Mida rohkem raha on klientide käes, seda rohkem on käibekapital "pinge all", ehk muude tingimuste samaksjäädes mõjub "küla peal olev raha" elujõulisusele negatiivselt.
+  </div>
+  </div>
+  <br><br>
+  <div class="tekstike2 textmargin"> 
+    <div> <span style="font-weight: 700">Varude käibesagedus </span> (<em>inventory turnover ratio</em>), nimetatakse ka varude käibekordajaks, juures vaadatakse seda, kui efektiivselt kasutatakse kauba- või materjalivarusid. Mida aeglasemalt varud käibivad, seda rohkem on seal raha kinni ja seda ebaefektiivsem on see ettevõtte seisukohalt vaadates. Varude käibesagedus arvutatakse alljärgneva valemi järgi: 
+     
+    </div>
+  </div><br>
+  <div class="eq-c">
+    Varude käibesagedus =
+     <div class="fraction">
+     <span class="fup">Müügitulu</span>
+     <span class="bar">/</span>
+     <span class="fdn">Keskmised varud</span>
+     </div>
+  </div>
+
+  <br>
+  <div class="tekstike2 textmargin"> 
+  <div class="rowmargin">
+  Müügitulu leitakse kasumiaruandest perioodi lõpu seisuga ja keskmised varud bilansist perioodi alguse ja perioodi lõpu keskmisena. Elujõulisuse seisukohalt vaadates saab näitaja järgi aru sellest, et kui palju raha on varude all kinni. Mida rohkem on raha varude all, ehk laos kinni, seda vähem saab seda raha kasutada äritegevuseks (ehk samade käibevahendite võimekuse kontekstis vajatakse suuremat kogust raha), seda madalam on muude tingimuste samaskjäädes ettevõtte elujõulisus. 
+  
+  </div>
+  </div>
+
+
+  <br>

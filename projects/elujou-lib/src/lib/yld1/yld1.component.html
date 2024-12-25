@@ -1,0 +1,101 @@
+<div class="frame">
+
+  <div class="rida">
+     <div class="group">
+       <div class="joonisval">
+         <div class="joonis">
+             
+           <!--div class="overlap-group"-->
+             
+           <!--/div-->
+           <koondind7-component></koondind7-component>
+           
+           
+         </div>
+         
+       
+
+  </div>
+       
+     </div>
+     <div class="tekstjanupp">
+       <p class="ettev-te-on-k-rge">
+         <span class="span">Ettevõte </span>
+         <!--span class="text-wrapper-5">prognoositav elujõud</span-->
+         <button class="disainx" id="tab6" aria-controls="kuus">
+         <label class="disain2x" for="tab3">prognoositav elujõud</label></button>
+         <span class="span"> on </span>
+         <span class="text-wrapper-5">{{annaHinnang()}}. </span>
+         <span class="span">Eri näitajad mõjutavad ettevõtte elujõulisust tavaliselt erineval määral. </span>
+         <span class="span">{{panusEelluguValik()}}</span>
+         <span class="text-wrapper-5">{{panusTulebValik()}} {{kontroll}}</span>
+         <span class="span">{{lisaTargutusValik()}}</span>
+       </p><br>
+       <div class="nupp">
+        <button (click)="onclick()" class="nuppaxx">
+        
+        {{ReadMore?"Näita rohkem informatsiooni":"Peida täiendav informatsioon"}}
+        </button>
+        &nbsp;&nbsp;
+        <button (click)="onclick2()" class="nuppm1">
+        
+        {{ReadMore2?"Kellele mõeldud":"Peida lisainfo"}}
+        </button>
+
+        &nbsp;&nbsp;
+        <button (click)="onclick3()" class="nupp2xxx">
+        
+        {{ReadMore3?"Kes seda infot näeb":"Peida lisainfo"}}
+        </button>
+               
+       
+     </div>
+  </div>
+  </div>
+        <ng-container *ngIf="visible">
+          <!--p>lsdfkj</p-->
+          <br>
+          <lahteturn-component></lahteturn-component>
+          <!--lahteturn-component></lahteturn-component-->
+          <!--div class="tekstselgit2">
+            
+            <br>   
+            
+            <lahteinfo-component></lahteinfo-component>    
+              
+          </div-->
+          
+  
+      </ng-container>
+        <!--/div-->  <!--Teksti kohta on stiiliinfot 224-->
+        <ng-container *ngIf="visible2">
+        <!--p>lsdfkj</p-->
+        <br>
+        <br><br>
+        <kelleleinfo-component></kelleleinfo-component><br>
+        <!--lahteturn-component></lahteturn-component-->
+        
+
+    </ng-container>
+       
+  
+  <!--/div-->  <!--Teksti kohta on stiiliinfot 224-->
+  <ng-container *ngIf="visible3">
+  <!--p>lsdfkj</p-->
+  <br>
+  <br><br>
+  <kesinfot-component></kesinfot-component><br>
+  <!--lahteturn-component></lahteturn-component-->
+  
+
+</ng-container>
+  
+  
+  
+  
+     <!--/div-->
+   <!--/div-->    
+  
+  <!--/div-->
+  
+<!----  {{maakonnaKontroll()}} -->

@@ -1,0 +1,1 @@
+export * from './koondind7.component';

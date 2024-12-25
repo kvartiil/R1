@@ -1,0 +1,232 @@
+<div class="tekstike">
+Hea testija!
+</div>
+
+
+<div class="tekstike2">
+  Ettevõtte elujõulisuse rakendus on tehisintellekti tehnoloogial põhinev rakendus, mis prognoosib ettevõtte majandusnäitajate ja riigile esitatud andmete põhjal<span style="font-weight: 700"> ettevõtte elujõulisust</span>.
+</div>
+
+<div class="tekstike2">
+  Elujõulisuse rakendus on abiks majandusnäitajate analüüsimisel ja võiks seega aidata hoida kokku väike- ja keskmise ettevõtja raha ja aega.
+</div>
+
+<div class="tekstike2 textmargin"> 
+  <div class="rowmargin2">
+    Rakendus võiks olla kasulik tööriist kolmel erineval moel: 
+  </div>
+</div>
+
+<div class="tekstike2 textmargin"> 
+  <div class="rowmargin"> 
+  
+  <ul>
+  <li>annab põhjaliku ülevaate <span style="font-weight: 700">ettevõtte hetkeseisust</span>;</li>
+  <li>võimaldab <span style="font-weight: 700">võrrelda</span> oma ettevõtet teiste sarnaste ettevõtetega;</li>
+  <li>pakub <span style="font-weight: 700">tulevikuprognoosi</span> ehk hindab, kui elujõuline on ettevõte lähitulevikus võrreldes teiste ettevõtetega.</li>
+  </ul>
+  </div>
+</div>
+
+<div class="tekstike2 textmargin"> 
+  <div class="rowmargin2">
+    Rakendus hindab viit tüüpi elujõulisust: maksevõimet, efektiivsust, finantsvõimendust, tasuvust ja tööjõukulude tootlikkust. Olles analüüsinud ettevõtte majandusnäitajaid, annab rakendus muuhulgas teada, millised tegevused võiksid ettevõtte käekäiku parandada.
+  </div>
+</div>
+
+<div class="tekstike2 textmargin"> 
+  <div class="rowmargin3">
+    Praegu testime rakenduse kasutamismugavust ja väljanägemist. Seega on kuvatavad andmed illustreerivad ning <span style="font-weight: 700">ei iseloomusta Teie ettevõtte tegelikke majandustulemusi</span>. Ootame Teie panust, et muuta rakendus paremaks ja kasutajasõbralikumaks.
+  </div>
+</div>
+
+<div class="tekstike2">
+  Testimise periood on 8.07.–04.08.2024. Rakendus saab ettevõtjatele kättesaadavaks selle aasta lõpuks.
+</div>
+
+<div class="tekstike2">
+  Klienditugi: tel 625 9300 (E–N 8.30–16.30, R 8.30–15.30), stat&#64;stat.ee
+</div>
+
+<div class="tekstike2">
+  Rakenduse kohta käivatele küsimustele saab vastata <a [href]="'https://kysitlus.stat.ee/552226?lang=et'"
+  appExternalUrl target="_blank"
+  >siin</a> (palun kasutage arvutit, mobiilivaates ei pruugi lehed õigesti kuvada).
+</div>
+
+
+<!--div class="tekstselgit7">
+  X-road simulatsioon
+  </div-->
+  
+  <!--div class="tekstselgit8">
+    Siin leheküljel on toodud X-tee simulatsioon, ehk siis võimalus sisestada/muuta neid sisendeid, mis üle X-tee tulevad ja näha, kuidas frontend nendele reageerib. Vaikimisi on kastides esitatud need väärtused, mida süsteem kasutab. Kui neid muuta, siis kasutab süsteem uusi väärtuseid. Kuna tegemist on aga "mängu" X-teega, siis oleks oluline, et süsteem saaks aru, et sisestatud on uus väärtus, selleks on mõistlik peale uute väärtuste sisestamist erinevaid alajaotuseid läbi klikata (siis alajaotus reinitsialiseerib ennast). Näiteks korra klikata efektiivsusele, siis maksevõimele ja siis uuesti efektiivsusele (lihtsalt, et süsteem aru saaks, et peab uued muutujad sisse lugema).
+  </div-->
+<br>
+<!--div class="tekstselgit6">
+Efektiivsuse mudel
+</div-->
+
+<!--div class="tekstselgit5">
+Mudelil on kolm väljundit, y1, y2 ja y3. Igaüks neist näitab tõenäosust, millise tõenäosusega mudel arvab, et on üks või teine tulem. Igaüks on vahemikus 0..1, nende summa on 1.
+</div-->
+<br> 
+
+<!--div class="tekstselgit4">
+  Mudel - madal elujõulisus, y1:   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Mudel - keskmine elujõulisus, y2:
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Mudel - kõrge elujõulisus, y3:
+
+  </div-->
+
+<!--input type="number" [(ngModel)]="numberValue" class="container" min="0" step="0.01" max="1"-->
+{{efektMadal()}}
+
+<!--input type="number" [(ngModel)]="numberValue2" class="container"-->
+{{efektKeskmine()}}
+
+<!--input type="number" [(ngModel)]="numberValue3" class="container"-->
+{{efektKorge()}}
+<br><br>
+<!--div class="tekstselgit8">
+Kastides olevate numbrite summa peaks olema 1.
+</div-->
+<br>
+<!--div class="tekstselgit6">
+Maksevõime mudel
+</div-->
+<!--div class="tekstselgit5">
+Mudelil on kolm väljundit, y1, y2 ja y3. Igaüks neist näitab tõenäosust, millise tõenäosusega mudel arvab, et on üks või teine tulem. Igaüks on vahemikus 0..1, nende summa on 1.
+</div-->
+<br>
+
+<!--div class="tekstselgit4">
+  Mudel - madal elujõulisus, y1:   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Mudel - keskmine elujõulisus, y2:
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Mudel - kõrge elujõulisus, y3:
+
+  </div-->
+
+<!--input type="number" [(ngModel)]="numberValuem" class="container"-->
+{{makseMadal()}}
+
+<!--input type="number" [(ngModel)]="numberValuem2" class="container"-->
+{{makseKeskmine()}}
+
+<!--input type="number" [(ngModel)]="numberValuem3" class="container"-->
+{{makseKorge()}}
+<br><br>
+<!--div class="tekstselgit8">
+Kastides olevate numbrite summa peaks olema 1.
+</div-->
+
+<br>
+<!--div class="tekstselgit6">
+Finantsvõimenduse mudel
+</div-->
+<!--div class="tekstselgit5">
+Mudelil on kolm väljundit, y1, y2 ja y3. Igaüks neist näitab tõenäosust, millise tõenäosusega mudel arvab, et on üks või teine tulem. Igaüks on vahemikus 0..1, nende summa on 1.
+</div-->
+<br>
+
+<!--div class="tekstselgit4">
+  Mudel - madal elujõulisus, y1:   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Mudel - keskmine elujõulisus, y2:
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Mudel - kõrge elujõulisus, y3:
+
+  </div-->
+
+<!--input type="number" [(ngModel)]="numberValuef" class="container"-->
+{{voimMadal()}}
+
+<!--input type="number" [(ngModel)]="numberValuef2" class="container"-->
+{{voimKeskmine()}}
+
+<!--input type="number" [(ngModel)]="numberValuef3" class="container"-->
+{{voimKorge()}}
+<br><br>
+<!--div class="tekstselgit8">
+Kastides olevate numbrite summa peaks olema 1.
+</div-->
+
+<br>
+<!--div class="tekstselgit6">
+Tasuvuse mudel
+</div-->
+<!--div class="tekstselgit5">
+Mudelil on kolm väljundit, y1, y2 ja y3. Igaüks neist näitab tõenäosust, millise tõenäosusega mudel arvab, et on üks või teine tulem. Igaüks on vahemikus 0..1, nende summa on 1.
+</div-->
+<br>
+
+<!--div class="tekstselgit4">
+  Mudel - madal elujõulisus, y1:   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Mudel - keskmine elujõulisus, y2:
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Mudel - kõrge elujõulisus, y3:
+
+  </div-->
+
+<!--input type="number" [(ngModel)]="numberValuet" class="container"-->
+{{tasuvMadal()}}
+
+<!--input type="number" [(ngModel)]="numberValuet2" class="container"-->
+{{tasuvKeskmine()}}
+
+<!--input type="number" [(ngModel)]="numberValuet3" class="container"-->
+{{tasuvKorge()}}
+<br><br>
+<!--div class="tekstselgit8">
+Kastides olevate numbrite summa peaks olema 1.
+</div-->
+
+<br>
+<!--div class="tekstselgit6">
+Tööjõu tootlikkuse mudel
+</div-->
+<!--div class="tekstselgit5">
+Mudelil on kolm väljundit, y1, y2 ja y3. Igaüks neist näitab tõenäosust, millise tõenäosusega mudel arvab, et on üks või teine tulem. Igaüks on vahemikus 0..1, nende summa on 1.
+</div-->
+<br>
+
+<!--div class="tekstselgit4">
+  Mudel - madal elujõulisus, y1:   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Mudel - keskmine elujõulisus, y2:
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Mudel - kõrge elujõulisus, y3:
+
+  </div-->
+
+<!--input type="number" [(ngModel)]="numberValuej" class="container"-->
+{{toojoudMadal()}}
+
+<!--input type="number" [(ngModel)]="numberValuej2" class="container"-->
+{{toojoudKeskmine()}}
+
+<!--input type="number" [(ngModel)]="numberValuej3" class="container"-->
+{{toojoudKorge()}}
+<br><br>
+<!--div class="tekstselgit8">
+Kastides olevate numbrite summa peaks olema 1.
+</div-->
+
+<br>
+<!--div class="tekstselgit6">
+Konsultandi valimine
+</div>
+<div class="tekstselgit9">
+  Alltoodud rippmenüüst saab valida maakonna, konsultantide lehel kuvatakse konsultandid sellest maakonnast. Hetkel lihtsalt sünteetilised andmed.
+  </div>
+<select [formControl]="dropdown" class="container2">
+  <option [value]="option" *ngFor="let  option of options">{{option}}</option>
+</select--> 
+{{laeMaakond()}}
+
+<!--datain></datain-->
